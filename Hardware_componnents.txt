@@ -1,0 +1,19 @@
+Used components:
+    1.Arduino Uno microcontroller development board:
+        a.used to turn a 3 volt digital signal from the NodeMCU to 5 volt in order to power the water pump 
+        b.used to supply 5 volts to the relay module
+    2.NodeMCU :
+        a.Used to connect to the internet through the esp8266 in order to submit http requests to the website
+        b.Takes analog reading from Water Level Sensor
+        c.Takes digital Reading from Soil Hygrometer
+    3.Soil Hygrometer:
+        a.Used to interpret the resistance measured by the probe, it has a potentiometer in order to set a threshold for the digital output pin
+    4.Soil Hygrometer Probe
+        a.Pins covered in conductive material used to measure the resistance of the soil and in turn it’s humidity
+    5.Water Level Sensor
+        a.Used to measure the water level, the sensor is covered in lines of conductive material and the more water is in contact with the material the more current passes
+    6.Relay Module
+        a.Used to prevent flyback from the water pump 
+        b.It is an electrically operated switch the input pin controls whether the pin C is connected to the pin N0
+    7.Water Pump
+        a.A simple DC motor that spins a fan in order to pull water through an opening and push it through a hose to the soil
